@@ -155,5 +155,8 @@ const getTodayDate2 = function() {
     console.log(result);
 };
 
-getTodayDate1();
-getTodayDate2();
+setInterval(getTodayDate1, 1000);
+setInterval(getTodayDate2, 1000);
+
+// getTodayDate1();
+// getTodayDate2();
